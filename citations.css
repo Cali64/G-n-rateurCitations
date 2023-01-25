@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Biarritz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.glassform{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    transform: translate(50%, 50%);
+    
+}
+.container-glassform{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 35px;
+    background-color: rgba(0, 0, 0, .35);
+    border: dashed 1px orangered;
+    transition: all .7s ease-in-out;
+    
+}
+.container-glassform:hover{
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, .55) ;
+
+}
+
+.container-glassform:hover > body{
+    border: none;
+    filter: blur(2px);
+}
+
+.citation{
+    width: 400px;
+    height: 350px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 23px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.citation p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+
+} 
+
+button{
+    position: relative;
+    text-align: center;
+    left: 180px;
+    top: -25px;
+    background-color: orange;
+    height: auto;
+    width: 150px;
+    opacity: .8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    opacity: .3;
+    
+}
+button:hover{
+    opacity: .5;
+    cursor: pointer;
+    box-shadow: 16px 12px 16px 2px rgb(226, 55, 55);
+}
+
+
+
+
